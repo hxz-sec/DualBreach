@@ -5,15 +5,22 @@
 This is the official repository for "[NDSS 2026] [DualBreach: Efficient Dual-Jailbreaking via Target-Driven Initialization and Multi-Target Optimization](https://arxiv.org/abs/2504.18564)".
 
 
-
 ## Updates
 
 - 🚀 The code will be released soon. Stay tuned!
 
-
-
 ## Citation
 If you find this useful in your research, please consider citing:
+
+```
+@inproceedings{huang2026DualBreach,
+  title     = {DualBreach: Efficient Dual-Jailbreaking via Target-Driven Initialization and Multi-Target Optimization},
+  author    = {Huang, Xinzhe and Xiu, Kedong and Zheng, Tianhang and Zeng, Churui and Ni, Wangze and Qiin, Zhan and Ren, Kui and Chen, Chun},
+  booktitle = {Proceedings of the 33rd Annual Network and Distributed System Security Symposium (NDSS)},
+  year      = {2026},
+}
+```
+
 
 ```
 @misc{huang2025DualBreach,
