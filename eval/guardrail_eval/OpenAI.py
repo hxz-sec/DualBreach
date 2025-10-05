@@ -77,21 +77,18 @@ def main(args):
 
 
     api_keys_1 = [
-        "sk-e9io8l1lreAQv6yX831c2aDe444d4f2b9402730d65C5A3Ac",
-        # "sk-PoqlmfodNHPOaugJ115c899186B1456dA9AeE6081bB8782f",
-        # "sk-1iecj64toj0ZnnDfFf36E89c79E047D29a31Bc031a156c65",
+        ""
     ]
-    url_1 = "https://api.ai-gaochao.cn/v1"
+    url_1 = ""
 
     # haolun
     api_keys_2 = [
-        "sk-DDSQELyZz1cMqMKcbVusqolzPks6JCF7GTBNWptzU3fUPuZS"
+        ""
     ]
-    url_2 = "https://api.chatanywhere.com.cn/v1/moderations"
+    url_2 = ""
     # openai
     api_keys_3 = [
-        "sk-proj-9dymH5fHVHVVZ690Nv1ST3BlbkFJ7fKa556iLuBsnChlAYQ3",
-        "sk-proj-lA5HzS6iL7dhFy5lK2EZT3BlbkFJNy3I41keByjFoUuPhJoS",
+        "",
     ]
     url_3 = "https://api.openai.com/v1/moderations"
 

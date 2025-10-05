@@ -26,8 +26,8 @@ os.environ["CUDA_VISIBLE_DEVICES"] = device
 
 
 def BaiChuan(query: str):
-    url = "https://api.baichuan-ai.com/v1/chat/completions"
-    api_key = "sk-d5ca4e978802b95e09eb41c9268e4ee5"
+    url = ""
+    api_key = ""
 
     data = {
         "model": "Baichuan2-Turbo",
@@ -69,7 +69,7 @@ def QwenPlus(query: str):
     try:
         client = OpenAI(
             # 若没有配置环境变量，请用百炼API Key将下行替换为：api_key="sk-xxx",
-            api_key="sk-4f98be326c0d4c299ec4e440bf590929",
+            api_key="",
             base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
         )
 
@@ -93,7 +93,7 @@ def QwenMax(query: str):
     try:
         client = OpenAI(
             # 若没有配置环境变量，请用百炼API Key将下行替换为：api_key="sk-xxx",
-            api_key="sk-4f98be326c0d4c299ec4e440bf590929",
+            api_key="",
             base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
         )
 
@@ -136,7 +136,7 @@ def extract_content(tag, text):
 def gpt4(query: str):
 
 
-    api_key= "sk-EBGrPhv2XwkJLXhI38781042B5Cd40CbB55e7fFbE98390D5"
+    api_key= ""
     base_url = "https://api.ai-gaochao.cn/v1"
 
     client = OpenAI(api_key=api_key, base_url=base_url)
@@ -163,7 +163,7 @@ def gpt4(query: str):
 def gpt4o(query: str):
 
 
-    api_key= "sk-EBGrPhv2XwkJLXhI38781042B5Cd40CbB55e7fFbE98390D5"
+    api_key= ""
     base_url = "https://api.ai-gaochao.cn/v1"
 
     client = OpenAI(api_key=api_key, base_url=base_url)
@@ -400,7 +400,7 @@ def harmful_paraphrase_llm(original_prompt):
 
     fail_count = 0
     max_failures = 2  # 每种模型允许的最大失败次数
-    model_switch_order = [gpt4,, QwenMax,  QwenPlus,  gpt4o ]  # 模型切换顺序
+    model_switch_order = [ gpt4,, QwenMax,  QwenPlus,  gpt4o ]  # 模型切换顺序
     current_model_index = 0
 
     while True:

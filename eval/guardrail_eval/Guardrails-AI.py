@@ -30,7 +30,7 @@ colmn = judge_prompt.judge_colmn(input_csv_path)
 print("colmn为:")
 print(colmn)
 
-parser.add_argument('--api_key', type=str, default="sk-e9io8l1lreAQv6yX831c2aDe444d4f2b9402730d65C5A3Ac")
+parser.add_argument('--api_key', type=str, default="")
 parser.add_argument('--base_url', type=str, default="https://api.ai-gaochao.cn/v1")
 parser.add_argument('--input_csv_path', type=str, default= input_csv_path)
 parser.add_argument('--csv_col', type=str, default=colmn)
@@ -137,7 +137,7 @@ def toxic_validate(prompt: str) -> int:
 
 def bert_toxic_validate(prompt: str, threshold: float = 0.5):
     chatglm_api_url = "https://open.bigmodel.cn/api/paas/v4/chat/completions"
-    chatglm_api_key = "f6ca62c59e9c97cb0365c31806974b5f.sDj7lf7kcHSFGetQ"  # 保留您的 API 密钥
+    chatglm_api_key = ""  # 保留您的 API 密钥
 
     sentences = nltk.sent_tokenize(prompt)
     print(sentences)

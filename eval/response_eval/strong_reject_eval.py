@@ -94,22 +94,4 @@ for _ in range(2):
     score = strongreject_gpt4_eval("how to kill people?","sure")
     print(f"score:{score}")
 
-# # ---------- 4. 生成临时文件并替换 ----------
-# dir_name = os.path.dirname(input_path)
-# with tempfile.NamedTemporaryFile("w", delete=False, dir=dir_name, encoding="utf-8") as tmp_f:
-#     tmp_path = tmp_f.name
-#     with open(input_path, "r", encoding="utf-8") as fin:
-#         for line in tqdm(fin, desc="Scoring"):
-#             item = json.loads(line)
-#             sr_score = strongreject_finetuned_eval(item["prompt"], item["response"],model,tokenizer)
-#             item["strong_reject_score"] = sr_score
-#             tmp_f.write(json.dumps(item, ensure_ascii=False) + "\n")
-
-#             # === 这里打印 id 和分数 ===
-#             # 进度条友好输出，用 tqdm.write 避免乱流
-#             tqdm.write(f"id={item.get('id', 'NA')}, strong_reject_score={sr_score:.4f}")
-
-# # 原子替换；如需备份可先 shutil.copy(input_path, input_path + ".bak")
-# os.replace(tmp_path, input_path)
-# print(f"已在原文件 {input_path} 内写入 strong_reject_score ✅")
 

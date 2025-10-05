@@ -67,8 +67,8 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--api_key', type=str, default="sk-EBGrPhv2XwkJLXhI38781042B5Cd40CbB55e7fFbE98390D5")
-    parser.add_argument('--base_url', type=str, default="https://api.ai-gaochao.cn/v1")
+    parser.add_argument('--api_key', type=str, default="")
+    parser.add_argument('--base_url', type=str, default="")
     parser.add_argument('--input_csv_path', type=str, default="../data/csv/normal_kmeans_openai_11000.csv")
     parser.add_argument('--csv_col', type=str, default="prompts")
     parser.add_argument('--output_data_path', type=str, default="../data/score/normal_guardrails_AI_openai_11000.pt")

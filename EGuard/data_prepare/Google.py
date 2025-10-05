@@ -59,7 +59,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--input_csv_path', type=str, default="/data/home/Xinzhe/GAN/data/normal_contents_2k.csv")
     parser.add_argument('--csv_col', type=str, default="prompts")
-    parser.add_argument('--api_key', type=str, default="AIzaSyD17kPk5MCqMX8_25hjKJbNv8SZJNXbZ7M")
+    parser.add_argument('--api_key', type=str, default="")
     parser.add_argument('--output_jsonl_path', type=str, default="./data/normal_google.jsonl")
     args = parser.parse_args()
 

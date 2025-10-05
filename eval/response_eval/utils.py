@@ -108,8 +108,8 @@ def LLM(query: str, model_name, max_attempts=5, wait_time=5):
 
 
     # api_key = API_SECRET_KEY[]
-    API_SECRET_KEY = "sk-e9io8l1lreAQv6yX831c2aDe444d4f2b9402730d65C5A3Ac"
-    BASE_URL = "https://api.ai-gaochao.cn/v1"
+    API_SECRET_KEY = ""
+    BASE_URL = ""
 
     client = OpenAI(api_key=API_SECRET_KEY, base_url=BASE_URL)
     attempt = 0

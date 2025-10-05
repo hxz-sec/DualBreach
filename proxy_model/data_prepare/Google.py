@@ -141,7 +141,7 @@ if __name__ == "__main__":
     # "/data/home/Xinzhe/GuardBreaker/guard_attack/data/csv/{file_name}.csv"
     parser.add_argument('--input_csv_path', type=str, default=input_csv_path )
     parser.add_argument('--csv_col', type=str, default=colmn)
-    parser.add_argument('--api_key', type=str, default="AIzaSyCJaOZPQ_EsNeodFiq1KPLLjO8N_b1s1TY")
+    parser.add_argument('--api_key', type=str, default="")
     # "/data/home/Xinzhe/GuardBreaker/guard_attack/data/score/{file_name}_google.jsonl"
     parser.add_argument('--output_jsonl_path', type=str, default=f"/data/home/Xinzhe/GuardBreaker_new/data/score/guard_attack/{file_name}_google.jsonl")
     parser.add_argument('--batch_size', type=int, default=5, help='Number of results to save at once')
