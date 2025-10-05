@@ -64,22 +64,20 @@ def load_prompts_from_csv(csv_file):
 def main(args):
     # haolun
     api_keys_1 = [
-        "sk-DDSQELyZz1cMqMKcbVusqolzPks6JCF7GTBNWptzU3fUPuZS"
+        ""
     ]
-    url_1 = "https://api.chatanywhere.com.cn/v1/moderations"
-    # openai
+    url_1 = ""
+
     api_keys_2 = [
-        "sk-proj-9dymH5fHVHVVZ690Nv1ST3BlbkFJ7fKa556iLuBsnChlAYQ3",
-        "sk-proj-lA5HzS6iL7dhFy5lK2EZT3BlbkFJNy3I41keByjFoUuPhJoS",
+        ""
     ]
-    url_2 = "https://api.openai.com/v1/moderations"
-    # sirui
-    # 初始API密钥和URL
+    url_2 = ""
+
     api_keys_3 = [
-        "sk-Sdi6T5pdnx525EuU7c1c6d5cD4284b3394Cf5dCbE2A6B6A1",
-        "sk-7P7LrD18HFHpSeFTC4C238FcE83542F6Ab94C77a735f5aDe"
+        ""
     ]
-    url_3 = "https://api.ai-gaochao.cn/v1/moderations"
+    url_3 = ""
+
     # 初始化使用第一个API和URL
     current_api_keys = api_keys_1
     current_url = url_1
