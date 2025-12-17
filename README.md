@@ -124,26 +124,16 @@ python evaluate_xgboost.py
 If you find this useful in your research, please consider citing:
 
 NDSS 2026 Submission (preferred)
-```
-@inproceedings{huang2026DualBreach,
-  title     = {DualBreach: Efficient Dual-Jailbreaking via Target-Driven Initialization and Multi-Target Optimization},
-  author    = {Huang, Xinzhe and Xiu, Kedong and Zheng, Tianhang and Zeng, Churui and Ni, Wangze and Qiin, Zhan and Ren, Kui and Chen, Chun},
-  booktitle = {Proceedings of the 33rd Annual Network and Distributed System Security Symposium (NDSS)},
-  year      = {2026},
-}
-```
 
-arXiv Preprint:
 ```
-@misc{huang2025DualBreach,
-      title={DualBreach: Efficient Dual-Jailbreaking via Target-Driven Initialization and Multi-Target Optimization}, 
-      author={Xinzhe Huang and Kedong Xiu and Tianhang Zheng and Churui Zeng and Wangze Ni and Zhan Qiin and Kui Ren and Chun Chen},
-      year={2025},
-      eprint={2504.18564},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR},
-      url={https://arxiv.org/abs/2504.18564}, 
+@article{huang2025DualBreach,
+  title={DualBreach: Efficient Dual-Jailbreaking via Target-Driven Initialization and Multi-Target Optimization},
+  author={Huang, Xinzhe and Xiu, Kedong and Zheng, Tianhang and Zeng, Churui and Ni, Wangze and Qin, Zhan and Ren, Kui and Chen, Chun},
+  journal={arXiv preprint arXiv:2504.18564},
+  year={2025}
 }
+
+
 ```
 
 ## Lisence
